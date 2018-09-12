@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="codepixer">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Bestpay</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/hexagons.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<!-- <header id="header" id="home">
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<a href="index.html">
+						<img class="logo-header" src="img/logo.png" alt="" title="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</header> -->
+	<section>
+		<div class="container">
+			<div class="col-12 text-center payment-header">
+				<img class="logo-header" src="img/logo.png" alt="" title="" />
+				<h5>Bestinet Payment Services Sdn Bhd</h5>
+				<p>D6-3A-3A, Bangunan Perniagaan D6, Jalan Sentul,
+					<br>51000, Kuala Lumpur,
+					<br>Kuala Lumpur, Malaysia</p>
+				<h6>+6016 605 0250</h6>
+				<a href="#">merchant_admin@fwcms.my</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-20" id="feature">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-6">
+					<div class="payment-card">
+						<h5>Select Payment Method</h5>
+						<form>
+							<div class="cc-selector mt-20 mb-40">
+								<input checked="checked" id="personal" type="radio" name="credit-card" value="personal" />
+								<label class="drinkcard-cc" for="personal"><img src="img/user.png"><h4>Personal</h4><p>Internet Banking</p></label>
+								<input id="business" type="radio" name="credit-card" value="business" />
+								<label class="drinkcard-cc" for="business"><img src="img/work.png"><h4>Business</h4><p>Internet Banking</p></label>
+							</div>
+						</form>
+						<h5>Payment Mode</h5>
+						<p class="mt-10">Internet Banking
+							<img class="fpx-logo" src="../bestpay/img/fpx.png">
+						</p>
+						<div class="row input-group-icon mt-10 ">
+							<div class="col-md-3">
+								<div>Amount</div>
+							</div>
+							<div class="col-md-9">
+								<div class="icon pay-field">
+									<i class="fa fa-money" aria-hidden="true"></i>
+								</div>
+								<input type="number" name="Amount" placeholder="Amount" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Amount'"
+								 required="" class="single-input">
+							</div>
+						</div>
+						<div class="row input-group-icon mt-10 ">
+							<div class="col-md-3">
+								<div>Select Bank</div>
+							</div>
+							<div class="col-md-9">
+								<div class="icon pay-field">
+									<i class="fa fa-university " aria-hidden="true "></i>
+								</div>
+								<div class="form-select " id="default-select">
+									<select>
+										<option value="bank">-- Bank --</option>
+										<option value="maybank">Maybank</option>
+										<option value="cimb">CIMB</option>
+										<option value="affin">Affin Bank</option>
+										<option value="public">Public Bank</option>
+										<option value="islam">Bank Islam</option>
+										<option value="agrobank">Agrobank</option>
+										<option value="hongleong">Hong Leong Bank</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6">
+					<div class="payment-card">
+						<div class="row input-group-icon mt-10">
+							<div class="col-md-3">
+								<p>Email</p>
+							</div>
+							<div class="col-md-9">
+								<div class="icon pay-field">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<div class="form-select " id="default-select">
+									<input type="email" name="email" placeholder="What is Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'"
+									 required="" class="single-input">
+								</div>
+							</div>
+						</div>
+						<div class="row input-group-icon mt-10">
+							<div class="col-md-3">
+								<p>First Name</p>
+							</div>
+							<div class="col-md-9">
+								<div class="form-select " id="default-select">
+									<input type="text" name="first_name" placeholder="Enter Your First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'"
+									 required="" class="single-input">
+								</div>
+							</div>
+						</div>
+						<div class="row input-group-icon mt-10">
+							<div class="col-md-3">
+								<p>Last Name</p>
+							</div>
+							<div class="col-md-9">
+								<div class="form-select " id="default-select">
+									<input type="text" name="last_name" placeholder="Enter Your Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"
+									 required="" class="single-input">
+								</div>
+							</div>
+						</div>
+						<div class="row input-group-icon mt-10">
+							<div class="col-md-3">
+								<p>Phone</p>
+							</div>
+							<div class="col-md-9">
+								<div class="icon pay-field">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+								</div>
+								<div class="form-select " id="default-select">
+									<input type="number" name="phone" placeholder="What is Your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'"
+									 required="" class="single-input">
+								</div>
+							</div>
+						</div>
+						<div class="row input-group-icon mt-10">
+							<div class="col-md-3">
+								<p>Description</p>
+							</div>
+							<div class="col-md-9">
+								<textarea class="single-textarea" placeholder="Type Your Description" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Description'"
+								 required></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-8">
+								<p class="mt-20">By clicking on the
+									<b>"Proceed"</b>, you agree to FPX's
+									<a href="#">
+										<u>Terms and Conditions</u>
+									</a>
+								</p>
+							</div>
+							<div class="col-4">
+								<a href="#" class="float-right genric-btn primary mt-20">Proceed</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="footer">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td class="content-block">
+						<span class="apple-link">Copyright© Bestinet Sdn Bhd | All Right Reserved</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/hexagons.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

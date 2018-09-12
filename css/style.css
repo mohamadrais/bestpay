@@ -1,0 +1,147 @@
+html {
+
+    margin:0;
+    padding:0;
+  }
+  
+  body {
+  
+    
+    background-color:#f1f1f1;
+    margin:auto;
+  }
+  
+  .container {
+  
+    margin:auto;
+    margin-top: -7em;
+    width:80%;
+    text-align: center;
+    position:relative;
+    height:100vh;
+  
+  }
+  .text {
+  
+width:30%;
+  
+text-align: center;
+  
+z-index: 0;
+  
+position:absolute;
+  
+background-color:white;
+  
+padding-bottom:3rem;
+  
+padding-top:3rem;
+  
+padding-left:3rem;
+  
+padding-right:3rem;
+  
+left:0;
+  
+right:0;
+  
+margin-right:auto;
+  
+margin-left:auto;
+  
+top:30%;
+  
+box-shadow: 7px 7px 10px #125d8840;
+  
+justify-content: space-around;
+  
+align-items:center;
+  
+flex-wrap:wrap;
+  
+border-radius: 10px;
+  }
+  
+  
+  h1 {
+  
+font-family: 'Lato', sans-serif;
+  
+font-weight: 900;
+  
+font-size:2rem;
+  
+text-align:center;
+  
+margin:auto;
+  
+color: #222222;
+  
+letter-spacing: .10rem;
+  
+padding-bottom:.5rem;
+  }
+  
+  h2 {
+  
+font-family: 'Lato', sans-serif;
+  
+font-weight: 400;
+  
+font-size:1rem;
+  
+text-align:left;
+  
+margin:auto;
+  
+color: #222222;
+  
+letter-spacing: .10rem;
+  
+padding-bottom: 2rem;
+  }
+  
+  h3 {
+  
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size:.8rem;
+    text-align:center;
+    margin:auto;
+    letter-spacing: .10rem;
+  }
+
+  h4 {
+  
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size:1rem;
+    text-align:left;
+    margin:auto;
+    letter-spacing: .10rem;
+  }
+  
+  .button {
+  
+width:6rem;
+  
+border: 3px solid #125d88;
+  
+margin:auto;
+  
+text-align:center;
+  
+padding:.5rem;
+  
+color: #125d88;
+  
+border-radius: 10px;
+  }
+  
+  #home:hover {
+    background-color: #125d88;
+    color:white;
+  }
+
+  
+ 
